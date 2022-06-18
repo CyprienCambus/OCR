@@ -1,4 +1,4 @@
-cards_tab <- argonTabItem(
+ticket_tab <- argonTabItem(
   tabName = "ticket",
   
   # classic cards

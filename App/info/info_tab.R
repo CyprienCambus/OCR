@@ -1,4 +1,4 @@
-alerts_tab <- argonTabItem(
+info_tab <- argonTabItem(
   tabName = "info",
   br(), br(), br(), br(),br(), 
   argonRow(

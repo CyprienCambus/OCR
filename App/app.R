@@ -13,12 +13,11 @@ library(glue)
 source("sidebar.R")
 source("navbar.R")
 source("header.R")
-source("footer.R")
 
 # elements
-source("cards/cards_tab.R")
-source("tabs/tabsets_tab.R")
-source("alerts/alerts_tab.R")
+source("ticket/ticket_tab.R")
+source("book/book_tab.R")
+source("info/info_tab.R")
 source("functions.R")
 
 # App
@@ -33,9 +32,9 @@ shiny::shinyApp(
     header = argonHeader,
     body = argonDashBody(
       argonTabItems(
-        cards_tab,
-        tabsets_tab,
-        alerts_tab
+        ticket_tab,
+        book_tab,
+        info_tab
       )
     )
   ),

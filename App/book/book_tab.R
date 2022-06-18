@@ -1,5 +1,5 @@
 
-tabsets_tab <- argonTabItem(
+book_tab <- argonTabItem(
   tabName = "book",
   
   argonRow(
