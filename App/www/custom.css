@@ -1,0 +1,31 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #2fbb4a;
+}
+
+.h2, h2 {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.h5, h5 {
+    text-align: center;
+    font-size: .8125rem;
+}
+
+
+body {
+    font-family: Open Sans,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+    color: #525f7f;
+    background-color: #ffffff;
+}
+
+@media (min-width: 768px)
+.navbar-vertical.navbar-expand-md .navbar-brand-img {
+    max-height: 10rem;
+}
